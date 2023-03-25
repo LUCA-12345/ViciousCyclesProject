@@ -30,6 +30,14 @@
 
 a {
   font-weight: 600;
+  text-decoration: underline;
+  margin: 1.5%;
+  padding: 0.5%;
+  color: rgb(162, 98, 26);
+}
+
+a .productLink {
+  font-weight: 600;
   text-decoration: none;
   margin: 1.5%;
   padding: 0.5%;
@@ -39,6 +47,18 @@ a {
 .navLinks a:hover {
   background-color: rgba(84, 84, 84, 0.166);
   border-radius: 10px;
+}
+
+.textBox {
+  display: flex;
+  text-align: center;
+  margin: 5%;
+  padding: 1%;
+  border-radius: 5px;
+  flex-direction: column;
+  line-height: 2em;
+  font-weight: 600;
+  font-size: large;
 }
 
 .mainCard {
@@ -110,6 +130,16 @@ a {
   border-radius: 5px;
 }
 
+.productPreview_ProductPage {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgba(84, 84, 84, 0.133);
+  padding: 2.5%;
+  border-radius: 5px;
+}
+
 .productPreview img {
   height: 10%;
   width: 10%;
@@ -117,10 +147,27 @@ a {
   border-radius: 5px;
 }
 
+.productPreview_ProductPage img {
+  margin: 0.5%;
+  height: 15%;
+  width: 15%;
+  filter: drop-shadow(5px 5px 5px rgb(84, 84, 84));
+  border-radius: 5px;
+}
+
 .products {
   display: flex;
   justify-content: center;
-  margin: 5% 5% 2.5% 5%;
+  margin: 2.5% 5% 2.5% 5%;
+  font-family: "Vandalism", "Courier New";
+  color: rgba(84, 84, 84, 0.784);
+  font-size: 5em;
+}
+
+.products_ProductsPage {
+  display: flex;
+  justify-content: center;
+  margin: 0.5% 5% 0.5% 5%;
   font-family: "Vandalism", "Courier New";
   color: rgba(84, 84, 84, 0.784);
   font-size: 5em;
@@ -128,9 +175,10 @@ a {
 
 .footer {
   display: flex;
-  padding: 2.5%;
+  padding: 2.5% 2.5% 1% 2.5%;
   border-radius: 5px;
   background-color: rgba(84, 84, 84, 0.133);
+  font-size: medium;
 }
 
 .logo {
@@ -138,6 +186,47 @@ a {
   width: 10%;
   margin: 0%;
   padding: 0%;
+}
+
+.logo_ContactPage {
+  display: flex;
+  flex-direction: row;
+}
+
+.createAnAccount {
+  display: flex;
+  justify-content: center;
+  margin: 5% 5% 2.5% 5%;
+  font-family: "Vandalism", "Courier New";
+  color: rgb(84, 84, 84);
+  font-size: 2em;
+}
+
+.accountForm {
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  background-color: rgba(84, 84, 84, 0.133);
+  margin-bottom: 2%;
+}
+
+.inputField {
+  width: 25%;
+  margin: 1% 0% 1% 0%;
+  background-color: rgb(150, 150, 150);
+}
+
+label {
+  font-size: 0.75em;
+}
+
+.submitBtn {
+  background-color: rgb(150, 150, 150);
+  width: 10%;
+}
+
+.contactPage li {
+  list-style-type: none;
 }
 
 @media only screen and (max-width: 600px) {
