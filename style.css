@@ -230,6 +230,11 @@ iframe {
 }
 
 .videoDesc {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 2%;
   background-color: rgba(84, 84, 84, 0.133);
   border-radius: 5px;
