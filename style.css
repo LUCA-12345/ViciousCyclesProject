@@ -30,6 +30,7 @@
   justify-content: center;
   align-self: last baseline;
   font-size: 1.5vw;
+  margin-bottom: 1%;
 }
 
 a {
@@ -64,8 +65,6 @@ a .productLink {
   font-weight: 600;
   font-size: 2vw;
 }
-
-/* --------------------------------------------- */
 
 .mainCard {
   position: relative;
@@ -107,6 +106,8 @@ a .productLink {
   color: rgb(84, 84, 84);
   font-size: 5vw;
   margin: 0%;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .grafOne {
@@ -224,10 +225,14 @@ iframe {
   z-index: 1;
   width: 50vw;
   height: 30vw;
+  border-radius: 5px;
+  background-color: rgba(84, 84, 84, 0.133);
 }
 
 .videoDesc {
+  padding: 2%;
   background-color: rgba(84, 84, 84, 0.133);
+  border-radius: 5px;
 }
 
 .footer {
