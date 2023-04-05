@@ -277,10 +277,30 @@ iframe {
   margin-bottom: 2%;
 }
 
+.bioTextArea {
+  width: 40vw;
+  margin: 1% 0% 1% 0%;
+  background-color: rgb(150, 150, 150);
+}
+
 .inputField {
   width: 20vw;
   margin: 1% 0% 1% 0%;
   background-color: rgb(150, 150, 150);
+}
+
+.check {
+  color: rgb(150, 150, 150);
+  margin: 1% 0% 5% 0%;
+}
+
+.maleOrFemale {
+  display: flex;
+  margin: 1% 0% 1% 0%;
+}
+
+.dropDown {
+  margin: 1% 0% 5% 0%;
 }
 
 label {
