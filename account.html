@@ -37,7 +37,42 @@
   
         <label for="confirm_password" class="label">Confirm Password:</label>
         <input type="password" id="confirm_password" name="confirm_password" class="inputField" required><br>
-  
+
+        <label for="bio" class="label">Bio:</label>
+        <textarea class="bioTextArea" id="bio" name="bio" rows="4" cols="50"></textarea><br>
+
+        <label for="existingCust" class="label">Have you shopped with us before?</label><br>
+        <div class="checkFlex">
+          <label for="existingCust1" >Yes</label>
+          <input class="check" type="checkbox" id="existingCust1" name="existingCust2" value="Yes">
+          <label for="existingCust1" >No</label>
+          <input class="check" type="checkbox" id="existingCust2" name="existingCust2" value="No">
+          <label for="existingCust1" >Maybe</label>
+          <input class="check" type="checkbox" id="existingCust3" name="existingCust3" value="Maybe">
+          <br>
+        </div>
+        
+        <div class="maleOrFemale">
+          <input type="radio" id="mOf" name="Female" value="Female">
+          <label for="female">Female</label>
+          <input type="radio" id="mOf" name="Male" value="Male">
+          <label for="Male">Male</label>
+        </div>
+        <br>
+
+        <div class="dropDown">
+          <label for="lead">How did you hear about us?</label>
+
+          <select name="lead" id="lead">
+            <option value="commercial">Commercial</option>
+            <option value="radio">Radio</option>
+            <option value="freind">Friend</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+       
+        
         <input type="submit" value="Create Account" class="submitBtn">
       </form>
     <footer class="footer">
