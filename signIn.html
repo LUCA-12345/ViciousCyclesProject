@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vicious Cycles</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../style.css" />
     <link href="https://fonts.cdnfonts.com/css/vandalism" rel="stylesheet" />
-
     <style>
       @import url("https://fonts.cdnfonts.com/css/vandalism");
     </style>
@@ -19,11 +19,15 @@
       />
     </header>
     <div class="grafOne">
-      <img src="./images/cans.svg" alt="" class="bikeCans" />
+      <img
+        src="/images/cans.svg"
+        alt="Grafitti of two beer cans"
+        class="bikeCans"
+      />
     </div>
     <div class="nav">
       <div class="navLinks">
-        <a href="index.html" class="">Home</a>
+        <a href="products.html" class="">Products</a>
         <a href="about.html" class="">About</a>
         <a href="team.html" class="">Team</a>
         <a href="contact.html" class="">Contact</a>
@@ -31,32 +35,47 @@
       </div>
     </div>
 
-    <div class="products_ProductsPage">
-      <a href="./products.html" class="productLink"><span>Products</span></a>
+    <div class="mainCardSignIn">
+      <div class="singInBackground">
+        <form action="#" method="post" class="signIn">
+          <label for="username" class="label">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            class="inputField"
+            required
+          /><br />
+
+          <label for="password" class="label">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            class="inputField"
+            required
+          /><br />
+
+          <input type="submit" value="Sign In" class="submitBtn" />
+        </form>
+      </div>
+      <div class="text">
+        <p>Lorem ipsum dolor sit amet, consectetura</p>
+        <p>adipiscing elit. Sed vitae Sedq mollis leomon,</p>
+        <p>id ultricies est. Etiam sed iaculis massare,</p>
+        <p>eget vestibulumw Lorem ipsum dolor doloran</p>
+        <p>eget vestibulum Lorem ipsum dolor doloran</p>
+      </div>
     </div>
-    <div class="productPreview_ProductPage">
-      <img src="./images/pexels-cottonbro-studio-5465079.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446317.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5445302.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5465164.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5445302.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5465079.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446317.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5445302.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5465164.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5445302.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5465164.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5446295.jpg" alt="" />
-      <img src="./images/pexels-cottonbro-studio-5465164.jpg" alt="" />
-    </div>
+
     <div class="grafTwo">
-      <img src="./images/bman.svg" alt="" class="bikeGraf" />
+      <img
+        src="/images/bman.svg"
+        alt="Gaffitti of a man in a bat costume"
+        class="bikeGraf"
+      />
     </div>
+
     <footer class="footer">
       <div class="footerContent">
         <p>
@@ -82,10 +101,13 @@
           online.
         </p>
         <a href="https://www.instagram.com/accounts/login/"
-          ><img src="./images/Instagram_Glyph_Black.svg" alt="" class="logo"
+          ><img
+            src="./images/Instagram_Glyph_Black.svg"
+            alt="Instagram Icon"
+            class="logo"
         /></a>
         <a href="https://twitter.com/i/flow/login"
-          ><img src="./images/Logo black.svg" alt="" class="logo"
+          ><img src="./images/Logo black.svg" alt="Twitter Icon" class="logo"
         /></a>
       </div>
     </footer>
