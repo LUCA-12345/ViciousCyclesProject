@@ -1,3 +1,3 @@
 # ViciousCyclesProject
 
-https://luca-12345.github.io/ViciousCyclesProject/team.html
+https://luca-12345.github.io/ViciousCyclesProject/index.html
